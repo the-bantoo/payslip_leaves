@@ -145,6 +145,12 @@ app_license = "mit"
 # 	}
 # }
 
+doc_events = {
+	"Salary Slip": {
+		"on_update": "payslip_leaves.leaves.update_salary_slip_with_leave_balances"
+	}
+}
+
 # Scheduled Tasks
 # ---------------
 
